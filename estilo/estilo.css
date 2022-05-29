@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: 'Playfair Display', serif;
 }
 body{
@@ -38,7 +38,7 @@ ul{
 }
 
 li{
-    padding: 10px;
+    padding: 5px;
 }
 
 .hero__main{
@@ -96,6 +96,7 @@ li{
 @media screen and (max-width: 380px){
     .hero__header{
         padding: 0px 0px;
+        margin: 0px 0px;
     }
     .hero__img{
         max-width: 350px;
@@ -119,7 +120,7 @@ li{
         width: 300px;
     }
     .hero__form{
-        width:300px
+        width: 300px;
     }
 }
     
